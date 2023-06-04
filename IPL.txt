@@ -1,0 +1,33 @@
+
+IPL
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class IPLStatsTest {
+
+    @Test
+    public void verifyTeamStats() {
+        // Test Steps
+        String selectedTeam = "Mumbai Indians";
+        navigateToIPLStatsPage();
+        selectTeam(selectedTeam);
+        String retrievedStats = retrieveTeamStatistics();
+        
+        // Expected Result
+        String expectedStats = "Some expected team statistics";
+        Assert.assertEquals(retrievedStats, expectedStats, "Team statistics mismatch");
+    }
+
+    private void navigateToIPLStatsPage() {
+        // Code to navigate to the IPL Stats page
+    }
+
+    private void selectTeam(String team) {
+        // Code to select a team on the page
+    }
+
+    private String retrieveTeamStatistics() {
+        // Code to retrieve team statistics from the page
+        return "Some retrieved team statistics";
+    }
+}

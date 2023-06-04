@@ -1,0 +1,91 @@
+Test Strategy:
+
+Test Scope: Identify the key areas of the IPL Stats page that need to be tested, such as team statistics, player statistics, match results, and rankings.
+Test Objectives: Define the main goals of the testing effort, such as verifying the accuracy of statistics, ensuring data consistency, and validating the functionality of filters and search options.
+Test Environment: Determine the necessary test environment setup, including browsers, operating systems, and data sources.
+Test Data: Identify the required test data, such as sample teams, players, and matches, which can be obtained from publicly available IPL data or synthetic data.
+Test Design Techniques: Decide on the test design techniques to be used, such as boundary value analysis, equivalence partitioning, and data-driven testing.
+Test Automation Approach: Determine the programming language, automation framework, and tools to be used for test automation.
+Test Execution: Define the test execution process, including test scheduling, test data management, and test result reporting.
+Defect Management: Plan how defects will be reported, tracked, and managed throughout the testing process.
+Test Coverage: Ensure sufficient coverage of critical functionalities and prioritize test cases based on risk and impact.
+Test Maintenance: Establish a process for maintaining the test suite, updating test data, and adapting tests to accommodate changes in the IPL Stats page.
+Test Cases:
+
+Here's an example of a test case for the IPL Stats page:
+
+Test Case 1: Verify Team Stats
+
+Description: Verify that the team statistics are displayed accurately on the IPL Stats page.
+Test Steps:
+Navigate to the IPL Stats page.
+Select a team.
+Retrieve the team statistics from the IPL Stats page.
+Compare the retrieved statistics with the expected statistics.
+Expected Result: The retrieved team statistics should match the expected statistics.
+
+
+
+Verify Team Statistics
+
+Description: Ensure that team statistics are displayed accurately on the IPL Stats page.
+Test Steps:
+Navigate to the IPL Stats page.
+Select a team.
+Retrieve the team statistics from the page.
+Verify that the displayed statistics match the expected values.
+Verify Player Statistics
+
+Description: Validate that player statistics are correctly shown on the IPL Stats page.
+Test Steps:
+Navigate to the IPL Stats page.
+Select a player.
+Retrieve the player statistics from the page.
+Compare the displayed statistics with the expected values.
+Verify Match Results
+
+Description: Confirm that match results are accurately reflected on the IPL Stats page.
+Test Steps:
+Navigate to the IPL Stats page.
+Select a match.
+Retrieve the match results from the page.
+Validate that the displayed results match the actual outcome of the match.
+Verify Rankings
+
+Description: Ensure that team rankings are displayed correctly on the IPL Stats page.
+Test Steps:
+Navigate to the IPL Stats page.
+Retrieve the team rankings from the page.
+Compare the displayed rankings with the expected order based on the IPL standings.
+Verify Filtering by Team
+
+Description: Test the functionality to filter statistics based on a specific team.
+Test Steps:
+Navigate to the IPL Stats page.
+Select a team.
+Apply the filter to display statistics for the selected team.
+Verify that only the statistics related to the selected team are shown.
+Verify Filtering by Player
+
+Description: Validate the ability to filter statistics by a specific player.
+Test Steps:
+Navigate to the IPL Stats page.
+Select a player.
+Apply the filter to display statistics for the selected player.
+Confirm that only the statistics related to the selected player are displayed.
+Verify Sorting Functionality
+
+Description: Test the sorting functionality to ensure that statistics can be sorted in ascending or descending order.
+Test Steps:
+Navigate to the IPL Stats page.
+Select a category to sort by (e.g., runs, wickets, batting average).
+Apply the sorting option for the selected category.
+Validate that the statistics are displayed in the expected order.
+Verify Search Functionality
+
+Description: Test the search functionality to verify that relevant statistics can be found using search keywords.
+Test Steps:
+Navigate to the IPL Stats page.
+Enter a search keyword related to teams, players, or statistics.
+Submit the search query.
+Verify that the displayed statistics are relevant to the search keyword.
